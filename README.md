@@ -19,13 +19,13 @@ It supports real-time communication between multiple clients connected to a cent
 
 ## 📁 Project Structure
 
+```text
 chat-app/
-├── server.py # Runs the chat server
-├── client.py # Runs a chat client
-├── README.md # This file
-├── .gitignore # Files and folders to exclude from Git
-└── LICENSE # MIT License
-
+├── server.py         # Runs the chat server
+├── client.py         # Runs a chat client
+├── README.md         # This file
+├── .gitignore        # Files and folders to exclude from Git
+└── LICENSE           # MIT License
 
 ---
 
@@ -38,3 +38,6 @@ chat-app/
 ```bash
 python server.py
 
+### Run the Client
+```bash
+python client.py
